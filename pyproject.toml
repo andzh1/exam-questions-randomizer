@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "randomizer"
+version = "0.1.0"
+description = "Randomizer for exams"
+authors = ["andzh1 <andrey.zhizhelev@yandex.ru>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+PyQt6 = "^6.4.1"
+random2 = "^1.0.1"
+db-sqlite3 = "^0.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
