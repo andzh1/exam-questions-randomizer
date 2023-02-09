@@ -4,6 +4,11 @@ This is my pet project of a simple randomizer. I thought of it as of something t
 - It displays you number of qestion you should answer. Color of window depends on how hard is this question for you: white -> green -> yellow -> orange -> red in order from easiest to hardest. View code for details.
 - `Yes`, `No` buttons -- you press `Yes` if you've answered given question and `No` otherwise.
 - You can also `Skip` question.
+Everything is logged in console. 
+
+## How does it work
+Every question has it's "complexity". When you answer question, it's complexity decreases, when you can't answer it and press `No`, it increases. Skipping doesn't change questions complexity.
+Probability of you getting concrete question depends on it's complexity.
 
 ## Usage
 1. Clone this repository. For example, using SSH: type in terminal `git clone git@github.com:andzh1/randomizer.git`.
@@ -14,5 +19,8 @@ This is my pet project of a simple randomizer. I thought of it as of something t
 - **QT**
 - **SQL** - used for storing data
 - **Poetry** - package manager
+- **random2**
+
+You can use `db-create.py` script to create database.
 
 Feedback is welcome!
