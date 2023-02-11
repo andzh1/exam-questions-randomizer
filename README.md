@@ -1,4 +1,4 @@
-# Randomizer
+# Exam questions randomizer
 ## Description
 This is my pet project of a simple randomizer. I thought of it as of something that can help me to prepare for my exams. You can interact with it using scalable QT window, which has few fields: 
 - It displays you number of question you should answer. Color of window depends on how hard is this question for you: white → green → yellow → orange → red in order from easiest to hardest. View code for details.
