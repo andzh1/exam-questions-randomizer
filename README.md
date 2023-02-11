@@ -17,10 +17,8 @@ Probability of you getting concrete question depends on it's complexity.
 
 ## Technologies used
 - **QT**
-- **SQL** - used for storing data
-- **Poetry** - package manager
+- **SQL (sqlite3)** - used for storing data
+- **poetry** - package manager
 - **random2**
-
-You can use `db-create.py` script to create database.
 
 Feedback is welcome!
